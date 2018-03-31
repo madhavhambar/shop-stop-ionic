@@ -5,14 +5,37 @@
     </button>
     <ion-title>Home</ion-title>
   </ion-navbar>
+  <ion-item class="headrSearch">
+      <ion-input class="headrSearchinput" placeholder="Search" clearInput></ion-input>
+    </ion-item>
 </ion-header>
 
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
-
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
-
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+<ion-content padding >
+  <div class="centerElements">
+      <ion-card>
+      <ion-card-header>
+        Shop by Catagory
+        <hr/>
+      </ion-card-header>
+    
+      <ion-grid>
+          <ion-row>
+            <ion-col class="tile" col-4>cat 1</ion-col>
+            <ion-col col-4>cat 2</ion-col>
+            <ion-col col-4>cat 3</ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col col-4>cat 4</ion-col>
+            <ion-col col-4>cat 5</ion-col>
+            <ion-col col-4>cat 6</ion-col>
+          </ion-row>
+          <ion-row>
+              <ion-col col-4>cat 7</ion-col>
+              <ion-col col-4>cat 8</ion-col>
+              <ion-col col-4>cat 9</ion-col>
+          </ion-row>
+        </ion-grid>
+      
+    </ion-card>
+    </div>
 </ion-content>
